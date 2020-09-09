@@ -40,7 +40,6 @@ export default function NavBar() {
 				label="Projects"
 				value="/projects"
 				icon={<GitHubIcon />}
-				disabled
 				className={classes.content}
 			/>
 		</BottomNavigation>
