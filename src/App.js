@@ -4,10 +4,15 @@ import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Projects/Projects";
 import NavBar from "./Components/NavBar/NavBar";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import * as colors from "@material-ui/core/colors";
 
 function App() {
 	const theme = createMuiTheme({
-		palette: {},
+		palette: {
+			primary: {
+				main: colors.teal[600],
+			},
+		},
 	});
 
 	return (

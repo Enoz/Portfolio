@@ -41,6 +41,7 @@ export default function NavBar() {
 				value="/projects"
 				icon={<GitHubIcon />}
 				className={classes.content}
+				disabled
 			/>
 		</BottomNavigation>
 	);
